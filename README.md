@@ -1,8 +1,8 @@
 # Snova Serialization (`Snova.Std.Serialization`)
 
-Biblioteca de serialização e manipulação de formatos de dados em Snovalang puro.
+Data serialization and formatting library written in 100% pure Snovalang.
 
-## Módulos
-- `DataNode` (AST Universal de dados)
-- `JsonSerializer` (formatador JSON puro com escape)
-- `JsonParser` (decodificador JSON)
+## Features
+- `DataNode` universal JSON/data tree AST (`Null`, `Bool`, `IntNumber`, `FloatNumber`, `Text`, `List`, `Dict`)
+- `JsonSerializer` JSON encoder with character escaping (`\"`, `\\`, `\n`, `\t`, `\r`)
+- `JsonParser` pure JSON decoder
